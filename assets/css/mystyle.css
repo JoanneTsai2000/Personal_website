@@ -1,0 +1,30 @@
+body,h{
+	background-color:#FFF8DC;
+	text-align: center;
+
+	font-family:"Microsoft JhengHei";
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	text-align: center;
+}
+
+.h{
+	background-color: #FF8C00;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+.text{
+	font-weight: bold;
+}
+
+#tablehead{
+	background-color: #FFDAB9;
+}

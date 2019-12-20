@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var num1 = window.prompt("please enter number1:");
+		var num2 = window.prompt("please enter number2:");
+		 
+		if (num1<num2){
+			document.body.style.backgroundColor='pink';
+		}
+		else if (num1==num2){
+			document.body.style.backgroundColor='lightblue';
+		}
+		else{
+			document.body.style.backgroundColor='lightyellow';
+		} //改變背景顏色的程式要這樣打
+
+	</script>
+	<input type="button" name="" value="1st button" onclick="alert(num1);"> 
+	<!按下button時，螢幕會跳出first alert,將javascript加在html中>
+	<input type="button" name="" value="2st button" onclick="alert(num2);">
+	<input type="button" name="" value="blue" onclick="document.body.style.backgroundColor='blue';">
+	<input type="button" name="" value="green" onclick="document.body.style.backgroundColor='green';">
+
+	<!在java script宣告變數時，不需要先宣告是什麼類型的>
+</body>
+</html>
